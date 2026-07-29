@@ -3,6 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="bob-logo.png">
+<link rel="apple-touch-icon" href="bob-logo.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#F5821F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BoB Wallet">
 <title>BoB Wallet</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
@@ -49,6 +56,10 @@
   }
   .topbar{ display:flex; justify-content:space-between; align-items:center; font-family:'Manrope',sans-serif; }
   .brand{ display:flex; align-items:center; gap:9px; font-weight:800; font-size:19px; letter-spacing:-0.02em; }
+  .brand-logo{
+    width:34px; height:34px; border-radius:9px; object-fit:cover;
+    flex:none; box-shadow:0 2px 8px rgba(0,0,0,0.12);
+  }
   .brand-mark{
     width:30px; height:30px; border-radius:8px;
     background: var(--orange);
@@ -231,7 +242,7 @@
 
   <div class="header">
     <div class="topbar">
-      <div class="brand"><div class="brand-mark">B</div>BoB Wallet</div>
+      <div class="brand"><img class="brand-logo" src="bob-logo.png" alt="BoB World logo">BoB Wallet</div>
       <div style="display:flex; align-items:center; gap:9px;">
         <div style="font-size:12px; font-weight:700; color:#fff; text-align:right; line-height:1.25;">Vyas Tirth<br>Ketankumar</div>
         <div class="avatar">T</div>

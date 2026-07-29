@@ -1,0 +1,16 @@
+{
+  "name": "BoB Wallet",
+  "short_name": "BoB Wallet",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F5F4F1",
+  "theme_color": "#F5821F",
+  "icons": [
+    {
+      "src": "bob-logo.png",
+      "sizes": "447x447",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
